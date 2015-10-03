@@ -31,5 +31,6 @@ fibonacci:
 	add r5,#1                       @ r5 = r5+1 (i++) 
 	bl .For                         @ goto .For
 
+
 	.size fibonacci, .-fibonacci
 	.end
